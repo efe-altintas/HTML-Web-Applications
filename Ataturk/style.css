@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #fff;
+    z-index: 999
+  } 
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+}
+
+.header img{
+    margin-left: 120px;
+}
+
+#ata{
+    margin-left: 590px;
+}
+
+#ovuncalis{
+    position: relative;
+    top: -15px;
+}
+
+#turkiye{
+    position: relative;
+    top: -10px;
+}
+
+nav{
+    max-width: auto;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top:0px;
+
+}
+
+.left-content{
+    width: 400px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    float: left;
+    margin-left: 39px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left-content h1{
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}
+
+.left-content ol li{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.left-content p{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+
+.content{
+    width: 900px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    float: left;
+    margin-left: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.slide{
+    width: auto;
+    height: 270px;
+    background: url(image/slide.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+
+.right-content{
+    background: url(image/Mustafa_Kemal\,_Adana\,_1923.png);
+    background-size: cover;
+    width: 400px;
+    height: 720px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    float: left;
+    margin-left: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 180px;
+}
+
+ul li a{
+    width: 220px;
+    height: 30px;
+    float: left;
+    margin-left: 55px;
+    text-align: center;
+    line-height: 31px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+#home{
+    width: 45px;
+}
+
+
+ul li a:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.content h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+.content img{
+  margin-top: 10px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.footer{
+    margin-top: 850px;
+    width: auto;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer a i{ 
+    margin-top: 60px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+#inst:hover{
+    color: rgb(196, 0, 137);
+}
+
+#faceb:hover{
+    color: rgb(0, 29, 194);
+}
+  
+#twit:hover{
+    color: rgb(44, 37, 37);
+}
+  
+#yout:hover{
+  color: red;
+}
+
+.image-box-1{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 180px;
+    float: left;
+    background: url(image/atam.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-2{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/uluonder.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.image-box-3{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/atam_1.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-4{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/Atatürk_Kemal.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.image-box-5{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 180px;
+    float: left;
+    background: url(image/Mustafa_Kemal\,_Adana\,_1923.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-6{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left; 
+    background: url(image/6f1f2c38d4eda13d889727d7005ac333.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-7{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/mustafa-kemal-ataturk.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-8{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/138759.jpg);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-9{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 180px;
+    float: left;
+    background: url(image/2023_Kasim_atatürk_AA-32557685.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-10{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/atatürk1.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-11{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/ataturk-sonbisey-kapak.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-box-12{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    background: url(image/Ataturk-012.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#life-parag{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.life-content{
+    width: 1100px;
+    height: 3800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background-image: url(image/871ca3acd404c3834f0e4bdd6baadeef.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+#life-h2{
+    margin-top: 15px;
+}
+
+.kahraman-1{
+   width: 800px;
+   height: 390px;
+   border-radius: 12px;
+   background-color: white;
+   margin: 20px auto;
+}
+
+.kahraman-2{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-3{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-4{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-5{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-6{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-7{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+ .kahraman-8{
+    width: 800px;
+    height: 390px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 20px auto;
+ }
+
+
+::-webkit-scrollbar{
+   background-color: black;
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+
+
+
+

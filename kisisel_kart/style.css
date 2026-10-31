@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.card
+{
+    width: 350px;
+    height: 320px;
+    border: 0.5px solid rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:300px auto;
+}
+
+.card-image{
+    width: 175px;
+    height: 175px;
+    margin: -50px auto;
+    border-radius: 100px;
+    border: 0.5px solid rgb(245, 245, 245);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-image img{
+    width: 175px;
+    border-radius: 100px;
+}
+
+.card-image img:hover{
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+  box-shadow: rgba(60, 60, 68, 0.31) 0px 7px 29px 0px;
+}
+
+.card-title{
+    margin-top: 70px;
+    margin-left: 92px;
+}
+
+.card-info{
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(156, 156, 156);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card-social{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    
+}
+
+.card-social a{
+    text-decoration: none;
+    color: #2c2c2c;
+    margin-left: 5px;
+    
+}
+
+/* Social Links Hover */
+
+.fa-github:hover, .fa-square-instagram:hover, .fa-linkedin:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+}
+
+.fa-square-instagram:hover{
+  color: rgb(205, 52, 141);
+}
+
+.fa-linkedin:hover{
+    color: rgb(36, 36, 162);
+}
+
+.fa-github:hover{
+    color: #4c4c4c;
+}
